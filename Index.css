@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Gothic A1', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#one{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+
+#one #search{
+    width: 30%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* background-color: red; */
+}
+
+#search img{
+    margin: 20px;
+}
+
+/* #search input{
+    border-radius: 20px;
+    border-color: transparent;
+    font-weight: 300;
+    padding: 10px 30px;
+    background-color: #F9F9F9;
+} */
+
+.searchBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #searchQueryInput {
+    width: 60%;
+    height: 2.8rem;
+    background: #f5f5f5;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1rem;
+  }
+  
+  #searchQuerySubmit {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  #searchQuerySubmit:hover {
+    cursor: pointer;
+  }
+
+#details{
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+#two{
+    display: flex;
+    padding-top: 20px;
+    height: auto;
+}
+
+#left{
+    width: 43%;
+    height: auto;
+    /* background-color: blue; */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#space{
+    width:10%;
+}
+
+#head{
+    padding: 40px;
+}
+
+#left h3{
+    padding: 10px 0;
+    font-size: 15px;
+    color: #3E3E3E;
+}
+
+
+#left h3 > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    color: #AFAFAF;
+}
+
+#left h3 > a:hover{
+    color: #3E3E3E;
+}
+
+#left h1{
+    text-align: left;
+    padding: 40px 0;
+    width: 60%;
+    font-size: 40px;
+    /* background-color: red; */
+}
+
+#links p{
+    padding-left:7% ;
+}
+
+#left #links p > a{
+    text-decoration: none;
+    color: #939393;
+    font-size: 12px;
+    /* background-color: aqua; */
+}
+
+#left #links p > a:hover{
+    color: #3c3b3b;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    padding-right: 120px;
+    /* background-color: black; */
+}
+
+#right #top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom: 2px solid #FCFCFC;
+    /* background-color: aquamarine; */
+
+}
+
+#right #bottom{
+    display: flex;
+    border-bottom: 2px solid #FCFCFC;
+    padding-top: 20px;
+    /* background-color: black; */
+}
+
+.desc{
+    padding: 20px 0;
+    word-spacing: 0.2px;
+    letter-spacing: 1%;
+}
+
+.desc h2{
+    padding-bottom: 10px;
+    font-weight: 800;
+    color: #212020;
+}
+
+.desc p{
+    color:#94949d;
+}
+
+.img{
+    padding: 60px 0;
+    align-items: end;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+}
+
+.name p{
+    font-size: 12px;
+}
+
+.name sup{
+    padding: 2px;
+    color: #a1aaaf;
+}
+
+.text{
+    padding: 0 25px;
+}
+
+.read{
+    display: flex;
+    padding: 3px 0;
+    color: #939192;
+    font-size: 13px;
+    justify-content: start;
+}
+
+.read p{
+    padding: 5px;
+}
+
+.likes{
+    display: flex;
+    padding: 7px;
+}
+
+.com{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    font-size: 13px;
+    color: #c2bfbf;
+}
+
+.btn{
+    border: none;
+    background-color: #fff;
+    color: rgb(172, 164, 164);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: black;
+}
+
+.icon{
+    border: none;
+    background-color: #fff;
+    color: rgb(172, 164, 164);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.icon:hover{
+    /* background-color: rgb(235, 232, 232); */
+    border-color: black;
+    border-radius: 500px;
+}
+
+.user{
+    border: none;
+    cursor:pointer;
+    background-color: #fff;
+    font-weight: 200;
+}
+
+.user:hover{
+    color: #939192;
+}
+
+.save{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.save p{
+    padding: 10px;
+}
