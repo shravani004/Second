@@ -71,7 +71,7 @@ html,body{
 #two{
     display: flex;
     padding-top: 20px;
-    height: auto;
+    height: 85%;
 }
 
 #left{
@@ -117,7 +117,8 @@ html,body{
 }
 
 #links p{
-    padding-left:7% ;
+    padding-left:7%;
+    padding: 20px;
 }
 
 #left #links p > a{
