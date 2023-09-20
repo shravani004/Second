@@ -148,7 +148,7 @@ html,body{
 
 #right #bottom{
     display: flex;
-    border-bottom: 2px solid #FCFCFC;
+    border-bottom: 2px solid #e2e2e2;
     padding-top: 20px;
 }
 
