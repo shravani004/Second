@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Gothic A1', sans-serif;
 }
 
@@ -16,8 +15,9 @@ html,body{
     height: 7%;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 10px;
     border-bottom: 2px solid #e2e2e2;
-    /* background-color: black; */
 }
 
 #one #search{
@@ -25,20 +25,11 @@ html,body{
     display: flex;
     justify-content: left;
     align-items: center;
-    /* background-color: red; */
 }
 
 #search img{
-    margin: 20px;
+    margin: 0 20px;
 }
-
-/* #search input{
-    border-radius: 20px;
-    border-color: transparent;
-    font-weight: 300;
-    padding: 10px 30px;
-    background-color: #F9F9F9;
-} */
 
 .searchBar {
     width: 100%;
@@ -75,7 +66,6 @@ html,body{
     padding: 0 30px;
     display: flex;
     align-items: center;
-    /* background-color: aqua; */
 }
 
 #two{
@@ -87,7 +77,6 @@ html,body{
 #left{
     width: 43%;
     height: auto;
-    /* background-color: blue; */
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -125,7 +114,6 @@ html,body{
     padding: 40px 0;
     width: 60%;
     font-size: 40px;
-    /* background-color: red; */
 }
 
 #links p{
@@ -136,7 +124,6 @@ html,body{
     text-decoration: none;
     color: #939393;
     font-size: 12px;
-    /* background-color: aqua; */
 }
 
 #left #links p > a:hover{
@@ -149,15 +136,13 @@ html,body{
     justify-content: space-between;
     width: 70%;
     padding-right: 120px;
-    /* background-color: black; */
 }
 
 #right #top{
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
-    border-bottom: 2px solid #FCFCFC;
-    /* background-color: aquamarine; */
+    border-bottom: 2px solid #e2e2e2;
 
 }
 
@@ -165,7 +150,6 @@ html,body{
     display: flex;
     border-bottom: 2px solid #FCFCFC;
     padding-top: 20px;
-    /* background-color: black; */
 }
 
 .desc{
@@ -253,7 +237,6 @@ html,body{
 }
 
 .icon:hover{
-    /* background-color: rgb(235, 232, 232); */
     border-color: black;
     border-radius: 500px;
 }
